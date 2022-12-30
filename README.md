@@ -26,9 +26,9 @@ Pour cela, une fois sur la racine du repository GitHub, il faut :
 2. Cliquer sur "Download ZIP".
 3. Aller dans le dossier de notre ordinateur où se trouve notre élément au format ".zip" précèdemment téléchargé (se trouvant normalement dans le dossier "Téléchargements" de l'ordinateur).
 4. Le "dézipper".
-5. Ouvrir le dossier dézipper (**/!\ Attention ! /!\ Il faut impérativement que les fichiers du projet soient réunis dans un seul et même dossier pour que le projet fonctionne !**).
+5. Ouvrir le dossier dézipper (***/!\ Attention ! /!\ Il faut impérativement que les fichiers du projet soient réunis dans un seul et même dossier pour que le projet fonctionne !***).
 6. Ouvrir le fichier index.html dans un navigateur internet.
-7. **REMARQUE : Une connexion internet est nécéssaire pour que le projet fonctionne !**
+7. ***REMARQUE : Une connexion internet est nécéssaire pour que le projet fonctionne !***
 
 
 ## FONCTIONNEMENT DU PROJET
