@@ -12,7 +12,7 @@ Ce projet est un CRUD réalisé grâce aux technologies suivantes :
 
 L'URL ci-dessous, permet d'accéder a la page web du projet :
 
-
+URL : https://odahnc.github.io/ECF_CRUD_AJAX_JS_THIERRY_Corentin/
 
 ## COMMENT INSTALLER LE PROJET SUR MON ORDINATEUR ?
 
@@ -22,7 +22,7 @@ Afin de pouvoir utiliser ce projet sur votre ordinateur, il est nécéssaire de 
 - Le fichier "script.js"
 
 Pour cela, une fois sur la racine du repository GitHub, il faut : 
-1. Cliquer sur le bouton vert en haut a droite de la fenêtre comportant tous les fichiers du projets se nommant "<> Code".
+1. Cliquer sur le bouton vert en haut a droite de la fenêtre comportant tous les fichiers du projets se nommant "Code".
 2. Cliquer sur "Download ZIP".
 3. Aller dans le dossier de notre ordinateur où se trouve notre élément au format ".zip" précèdemment téléchargé (se trouvant normalement dans le dossier "Téléchargements" de l'ordinateur).
 4. Le "dézipper".
