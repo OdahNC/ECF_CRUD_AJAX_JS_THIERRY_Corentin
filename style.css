@@ -1,0 +1,154 @@
+/**********************************/
+/*********** DESKTOP ***************/
+/*********** VERSION **************/
+/**********************************/
+
+#table-data {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1000px;
+  table-layout: fixed;
+}
+
+#table-data td,
+#table-data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  word-break: break-all;
+  text-align: center;
+}
+
+#table-data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table-data tr:hover {
+  background-color: #ddd;
+}
+
+#table-data th {
+  position: sticky;
+  top: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#form-button,
+#data-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#data-button {
+  position: sticky;
+  bottom: 7px;
+}
+
+button[type="button"] {
+  width: 100%;
+  background-color: #26ec2d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #06a90e;
+}
+
+form {
+  z-index: 1;
+  position: sticky;
+  top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #04aa6d;
+  padding: 20px;
+}
+
+#burger-menu {
+  display: none;
+}
+#close-menu {
+  display: none;
+}
+#btn-of-burger-menu {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/**********************************/
+/*********** MOBILE ***************/
+/*********** VERSION **************/
+/**********************************/
+
+@media only screen and (max-width: 500px) {
+  input[type="text"],
+  input[type="email"],
+  #form-button,
+  #form-data {
+    width: 950px;
+  }
+
+  #burger-menu {
+    display: block;
+    height: 0;
+    position: fixed;
+    top: 460px;
+    bottom: 300px;
+  }
+
+  #close-btn {
+    display: block;
+    height: 0;
+    position: fixed;
+    top: 460px;
+    bottom: 300px;
+  }
+
+  #btn-of-burger-menu {
+    flex-direction: column;
+    gap: 20px;
+    height: 0;
+    position: fixed;
+    top: 540px;
+    left: 13px;
+    background-color: #58d5ff;
+  }
+
+  #data-button {
+    display: none;
+  }
+}

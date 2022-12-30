@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THIERRY Corentin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="form-data" style="display: none">
+      <label>Enter name:</label>
+      <input type="text" id="name" placeholder="Enter name" />
+      <br />
+
+      <label>Enter lastname:</label>
+      <input type="text" id="last_name" placeholder="Enter lastname" />
+      <br />
+
+      <label>Enter jobtitle:</label>
+      <input type="text" id="job_title" placeholder="Enter jobtitle" />
+      <br />
+
+      <label>Enter email:</label>
+      <input type="email" id="email" placeholder="Enter email" />
+
+      <div id="form-button">
+        <button type="button" id="submit-form-button">Submit</button>
+        <button type="button" id="cancel-form-button">Cancel</button>
+      </div>
+    </form>
+
+    <span id="burger-menu">
+      <svg
+        width="40px"
+        viewBox="-1.68 -1.68 27.36 27.36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0">
+          <rect
+            x="-1.68"
+            y="-1.68"
+            width="27.36"
+            height="27.36"
+            rx="4.104"
+            fill="#26ec2d"
+            strokewidth="0"
+          ></rect>
+        </g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            clip-rule="evenodd"
+            d="m4.25 8c0-.41421.33579-.75.75-.75h14c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.33579-.75-.75zm0 4c0-.4142.33579-.75.75-.75h14c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.3358-.75-.75zm.75 3.25c-.41421 0-.75.3358-.75.75s.33579.75.75.75h14c.4142 0 .75-.3358.75-.75s-.3358-.75-.75-.75z"
+            fill="#000000"
+            fill-rule="evenodd"
+          ></path>
+        </g>
+      </svg>
+    </span>
+    <span id="close-btn" style="display: none">
+      <svg
+        width="40px"
+        viewBox="0 0 24.00 24.00"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0">
+          <rect
+            x="0"
+            y="0"
+            width="24.00"
+            height="24.00"
+            rx="3.5999999999999996"
+            fill="#26ec2d"
+            strokewidth="0"
+          ></rect>
+        </g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            clip-rule="evenodd"
+            d="m7.53033 6.46967c-.29289-.29289-.76777-.29289-1.06066 0s-.29289.76777 0 1.06066l4.46963 4.46967-4.46963 4.4697c-.29289.2929-.29289.7677 0 1.0606s.76777.2929 1.06066 0l4.46967-4.4696 4.4697 4.4696c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-4.4696-4.4697 4.4696-4.46967c.2929-.29289.2929-.76777 0-1.06066s-.7677-.29289-1.0606 0l-4.4697 4.46963z"
+            fill="#000000"
+            fill-rule="evenodd"
+          ></path>
+        </g>
+      </svg>
+    </span>
+    <div id="btn-of-burger-menu" style="display: none">
+      <span id="add-employee-button-menu"
+        ><svg
+          fill="#000000"
+          width="30px"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="-148.48 -148.48 808.96 808.96"
+          enable-background="new 0 0 512 512"
+          xml:space="preserve"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-148.48"
+              y="-148.48"
+              width="808.96"
+              height="808.96"
+              rx="121.344"
+              fill="#5cc3e6"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g id="SVGRepo_iconCarrier">
+            <polygon
+              points="298.7,213.3 298.7,0 213.3,0 213.3,213.3 0,213.3 0,298.7 213.3,298.7 213.3,512 298.7,512 298.7,298.7 512,298.7 512,213.3 "
+            ></polygon>
+          </g></svg
+      ></span>
+      <span id="refresh-data-button-menu"
+        ><svg
+          fill="#000000"
+          width="30px"
+          version="1.1"
+          id="XMLID_302_"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="-6.24 -6.24 36.48 36.48"
+          xml:space="preserve"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect
+              x="-6.24"
+              y="-6.24"
+              width="36.48"
+              height="36.48"
+              rx="5.4719999999999995"
+              fill="#5cc3e6"
+              strokewidth="0"
+            ></rect>
+          </g>
+          <g id="SVGRepo_iconCarrier">
+            <g id="refresh">
+              <g>
+                <path
+                  d="M12,24C5.4,24,0,18.6,0,12S5.4,0,12,0c4,0,7.8,2.1,10,5.4V1h2v8h-8V7h4.7c-1.8-3.1-5.1-5-8.7-5C6.5,2,2,6.5,2,12 s4.5,10,10,10s10-4.5,10-10h2C24,18.6,18.6,24,12,24z"
+                ></path>
+              </g>
+            </g>
+          </g></svg
+      ></span>
+    </div>
+
+    <div id="data">
+      <table id="table-data">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>LastName</th>
+            <th>JobTitle</th>
+            <th>Email</th>
+            <th>Edit an employee</th>
+            <th>Delete an employee</th>
+          </tr>
+        </thead>
+        <tbody id="dataValues"></tbody>
+      </table>
+      <div id="data-button">
+        <button type="button" id="add-employee-button">Add an employee</button>
+        <button type="button" id="refresh-data-button">
+          Refresh employees
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
